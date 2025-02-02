@@ -14,6 +14,9 @@ function NavBar() {
           <Link to="/recipes">Recipes</Link>
         </li>
         <li>
+          <Link to="/CreateRecipes">Create Recipes</Link>
+        </li>
+        <li>
           <Link to="/about">About</Link>
         </li>
         <li>

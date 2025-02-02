@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
+import CreateRecipe from "./pages/CreateRecipe";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recipes" element={<Recipes />} />
+        <Route path="/create-recipe" element={<CreateRecipe />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

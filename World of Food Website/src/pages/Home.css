@@ -1,0 +1,27 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff5e1; /* Light food-themed background color */
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  color: #ff6347; /* Tomato color */
+  margin-bottom: 1rem;
+}
+
+.home-container p {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  background-image: url("path/to/your/food-image.jpg"); /* Replace with your food image path */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 80%;
+}
