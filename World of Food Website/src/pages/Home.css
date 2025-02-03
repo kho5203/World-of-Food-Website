@@ -4,9 +4,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align items to the top */
+  justify-content: center; /* Align items to the top */
   align-items: center;
-  padding-top: 5rem; /* Add some padding to the top */
 }
 
 .hero-section {
