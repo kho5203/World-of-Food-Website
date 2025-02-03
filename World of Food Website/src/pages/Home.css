@@ -4,7 +4,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Align items to the top */
+  justify-content: center;
   align-items: center;
 }
 
@@ -15,7 +15,7 @@
 .hero-section h1 {
   font-size: 3rem;
   color: #ff6347;
-  margin-top: 0; /* Remove any default margin from the top */
+  margin-top: 0;
 }
 
 .hero-section p {
